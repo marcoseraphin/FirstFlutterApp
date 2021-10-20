@@ -8,7 +8,9 @@ import 'package:provider/provider.dart';
 
 void main() {
   runApp(ChangeNotifierProvider(
-      create: (context) => ThemeService(), child: const MyApp()));
+      // use ThemeService
+      create: (context) => ThemeService(),
+      child: const MyApp()));
 }
 
 class MyApp extends StatelessWidget {
