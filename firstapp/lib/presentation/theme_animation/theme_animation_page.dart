@@ -111,18 +111,18 @@ class ThemeAnimationPage extends StatelessWidget {
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: [
                               Text("Test Heading",
-                                  style: themeData.textTheme.headline1!
+                                  style: themeData.textTheme.displayLarge!
                                       .copyWith(fontSize: 16)),
                               const SizedBox(height: 15),
                               Text("Test Body",
-                                  style: themeData.textTheme.bodyText1!
+                                  style: themeData.textTheme.bodyLarge!
                                       .copyWith(fontSize: 14)),
                               const SizedBox(height: 15),
                               Row(
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 children: [
                                   Text("Dark Theme",
-                                      style: themeData.textTheme.bodyText1!
+                                      style: themeData.textTheme.bodyLarge!
                                           .copyWith(fontSize: 14)),
                                   const SizedBox(width: 15),
                                   Switch(
